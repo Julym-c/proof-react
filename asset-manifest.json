@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/proof-react/static/css/main.511afb91.chunk.css",
-    "main.js": "/proof-react/static/js/main.8c01d082.chunk.js",
-    "main.js.map": "/proof-react/static/js/main.8c01d082.chunk.js.map",
+    "main.css": "/proof-react/static/css/main.675a3e10.chunk.css",
+    "main.js": "/proof-react/static/js/main.c2110a98.chunk.js",
+    "main.js.map": "/proof-react/static/js/main.c2110a98.chunk.js.map",
     "runtime-main.js": "/proof-react/static/js/runtime-main.6b414fd0.js",
     "runtime-main.js.map": "/proof-react/static/js/runtime-main.6b414fd0.js.map",
     "static/js/2.bb02ab67.chunk.js": "/proof-react/static/js/2.bb02ab67.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.be169098.chunk.js": "/proof-react/static/js/3.be169098.chunk.js",
     "static/js/3.be169098.chunk.js.map": "/proof-react/static/js/3.be169098.chunk.js.map",
     "index.html": "/proof-react/index.html",
-    "static/css/main.511afb91.chunk.css.map": "/proof-react/static/css/main.511afb91.chunk.css.map",
+    "static/css/main.675a3e10.chunk.css.map": "/proof-react/static/css/main.675a3e10.chunk.css.map",
     "static/js/2.bb02ab67.chunk.js.LICENSE.txt": "/proof-react/static/js/2.bb02ab67.chunk.js.LICENSE.txt",
     "static/media/index.css": "/proof-react/static/media/globo-1.73e32cfc.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6b414fd0.js",
     "static/js/2.bb02ab67.chunk.js",
-    "static/css/main.511afb91.chunk.css",
-    "static/js/main.8c01d082.chunk.js"
+    "static/css/main.675a3e10.chunk.css",
+    "static/js/main.c2110a98.chunk.js"
   ]
 }
