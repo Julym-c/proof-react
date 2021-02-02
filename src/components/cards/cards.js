@@ -7,7 +7,7 @@ class Cards extends React.Component {
     }
 
     componentDidMount() {
-        fetch('https://api.openweathermap.org/data/2.5/find?lat=6.230833&lon=-75.590553&cnt=10&units=metric&APPID=8cc633b4d6a302cba8a6e6c37b7ee3f6')
+        fetch('https://api.openweathermap.org/data/2.5/find?lat=6.230833&lon=-75.590553&cnt=10&units=metric&lang=es&APPID=8cc633b4d6a302cba8a6e6c37b7ee3f6')
         .then((res) => res.json())
         .then( data => {
             this.setState({cities: data.list})
@@ -23,7 +23,7 @@ class Cards extends React.Component {
                         key={index} 
                         city={city.name}
                         icon={ city.weather[0].icon}
-                        time={city.weather[0].main}
+                        time={city.weather[0].description}
                         temp={city.main.temp}
                     />)
                 })    
