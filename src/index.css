@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    }
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 62.5%;
+    }
+
+body {
+    background-image: url('./files/globo-1.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    }
+
+.background__black {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100vh;
+    width: 100vw;
+}
+
+@media (min-width: 1024px) {
+    body  {
+        background-size: cover;
+    }
+}

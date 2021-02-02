@@ -1,0 +1,23 @@
+.cards {
+    background-color: white;
+    height: 18.2rem;
+    width: 25rem;
+    padding: 2rem;
+    }
+
+.cards__title {
+    font-size: 2rem;
+    margin-bottom: 1.8rem;
+    }
+
+.cards__subtitle {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    }
+
+.temperatute__text {
+    font-size: 4rem;
+    font-weight: bold;
+    }
