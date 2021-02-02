@@ -1,0 +1,54 @@
+.display {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    padding: 3rem;
+    width: 100vw;
+    padding-right: 0;
+    }   
+
+.display__text, .text {
+    font-size: 2rem;
+    }
+
+.display__title {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 4rem 0;
+    }
+
+.display__information {
+    display: flex
+    }
+
+.information__icon {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 8rem;
+    width: 14rem;
+    }
+
+.information__weather {
+    flex-direction: column;
+    margin-left: 2rem;
+    }
+
+.weather__text {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    }
+
+.weather__subtext {
+    font-size: 2rem;
+    font-weight: bold;
+    }
+
+.text {
+    margin: 5rem 0;
+    }

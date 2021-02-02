@@ -5,16 +5,21 @@ class Information extends React.Component {
     render(){
         return ( 
             <section className="display">
-                <p className="display__title">Cali,co</p>
-                <p className="display__subtitle">Sunny</p>
-                <div className="display__temperature">
-                    <span className="temperature__icon"></span>
-                    <p className="temperatute__text"> 28 ºC</p>
+                <p className="display__text">Current city</p>
+                <p className="display__title">Medellin.CO</p>
+                <div className="display__information">
+                    <span className="information__icon"></span>
+                    <div className="information__weather">
+                        <p className="weather__text"> 28 ºC</p>
+                        <p className="weather__subtext"> sunny</p>
+                    </div>
                 </div>
-                <p className="display__title">Cali,co</p>
-                <p className="display__subtitle">Sunny</p>
-                <p className="display__title">Cali,co</p>
-                <p className="display__subtitle">Sunny</p>
+                <div className="display__text">
+                    <p className="text">Cali,co</p>
+                    <p className="text">Sunny</p>
+                    <p className="text">Cali,co</p>
+                    <p className="text">Sunny</p>
+                </div>
             </section>
             )
     }

@@ -1,0 +1,16 @@
+.container__search {
+    height: 5rem;
+    min-width: 28rem;
+    margin: 5rem 2rem 3rem;
+    max-width: 80rem;
+    }
+
+input {
+    border: none;
+    display: flex;
+    height: inherit;
+    font-size: 1.6rem;
+    width: 100%;
+    outline: none;
+    padding: 2rem;
+    }
