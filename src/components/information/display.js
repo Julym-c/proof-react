@@ -14,7 +14,7 @@ class Information extends React.Component {
                         <p className="weather__subtext"> sunny</p>
                     </div>
                 </div>
-                <div className="display__text">
+                <div className="display__text-all">
                     <p className="text">Cali,co</p>
                     <p className="text">Sunny</p>
                     <p className="text">Cali,co</p>

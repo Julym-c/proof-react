@@ -45,15 +45,16 @@ body {
         margin-left: 6rem;
         }
 
+
+@media (min-width: 1024px) {
+    body  {
+        background-size: cover;
+        }
+
     .container__cards {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: start
         }
     }
-
-@media (min-width: 1024px) {
-    body  {
-        background-size: cover;
-        }
     }
