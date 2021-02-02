@@ -1,38 +1,35 @@
-.cards {
+.card {
     background-color: white;
     height: 18.2rem;
     width: 25rem;
     padding: 2rem;
-    margin: 3rem 0;
+    margin: 1.1rem 0;
+    margin-right: 2.2rem;
     }
 
-.cards__title {
+.card__title {
     font-size: 2rem;
     margin-bottom: 1.8rem;
     }
 
-.cards__subtitle {
+.card__subtitle {
     text-align: center;
     font-size: 1.6rem;
     font-weight: 500;
     margin-bottom: 1rem;
     }
-.cards__temperature {
+.card__temperature {
     display: flex;
     }
 
 .temperature__icon {
-    background-color: blue;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: inline-block;
-    height: 6rem;
-    width: 6rem;
+    height: 7rem;
+    width: 7rem;
     }
 
 .temperatute__text {
-    font-size: 4rem;
+    font-size: 3.2rem;
     font-weight: bold;
-    margin-left: 2rem;
+    margin-left: 1rem;
     margin-top: 1rem;
     }

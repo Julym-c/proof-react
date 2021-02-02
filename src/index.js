@@ -3,15 +3,11 @@ import {render} from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-import Card from './components/cards/all_cards'
+import Cards from './components/cards/cards'
 import Information from './components/information/display'
 import Searcher from './components/searcher/searcher'
 
-render(<div>
-        <Card/>
-        <Card/>
-        <Card/>
-        </div>, document.querySelector('#view__cards'));
+render(<Cards/>, document.querySelector('#view__cards'));
 render(<Information/>, document.querySelector('#details'));
 render(<Searcher/>, document.querySelector('#city__search'));
 
