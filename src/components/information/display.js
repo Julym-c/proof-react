@@ -1,8 +1,6 @@
 import React from 'react';
 import './info.css'
 
-
-
 class Information extends React.Component {
     // fecth api
     state = {
