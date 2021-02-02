@@ -24,15 +24,6 @@
     display: flex
     }
 
-.information__icon {
-    background-color: white;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: inline-block;
-    height: 8rem;
-    width: 14rem;
-    }
-
 .information__weather {
     flex-direction: column;
     margin-left: 2rem;

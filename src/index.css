@@ -45,6 +45,7 @@ body {
         margin-left: 6rem;
         }
 
+    }
 
 @media (min-width: 1024px) {
     body  {
@@ -56,5 +57,4 @@ body {
         flex-wrap: wrap;
         justify-content: start
         }
-    }
     }
