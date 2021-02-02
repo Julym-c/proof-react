@@ -10,7 +10,16 @@ input {
     display: flex;
     height: inherit;
     font-size: 1.6rem;
-    width: 100%;
     outline: none;
     padding: 2rem;
+    width: 100%;
+    }
+
+@media (min-width:768px) {
+    .container__search {
+        margin-top: 10rem;
+        margin-right: 42rem;
+        margin-left: 6rem;
+        margin-bottom: 10rem;
+        }
     }

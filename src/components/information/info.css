@@ -52,3 +52,9 @@
 .text {
     margin: 5rem 0;
     }
+
+@media (min-width:768px) {
+    .display__text {
+        margin-top: 7rem;
+        }
+    }

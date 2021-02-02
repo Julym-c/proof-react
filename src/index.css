@@ -13,6 +13,7 @@ html {
 body {
     background-image: url('./files/globo-1.jpg');
     background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 100%;
     width: 100%;
     }
@@ -26,12 +27,33 @@ body {
 
 .container__cards {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    }
+
+@media (min-width:768px){
+    .details {
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 36rem;
+        }
+
+    .container__cards {
+        margin-right: 42rem;
+        margin-left: 6rem;
+        }
+
+    .container__cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: start
+        }
     }
 
 @media (min-width: 1024px) {
     body  {
         background-size: cover;
+        }
     }
-}
